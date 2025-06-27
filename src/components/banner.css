@@ -1,0 +1,41 @@
+/* src/components/Banner/Banner.css */
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  padding: 40px 60px;
+  gap: 30px;
+  flex-wrap: wrap;
+  background-image: url(../assets/images/banner.jpg);
+  padding: 150px 0px;
+
+ 
+}
+
+.banner-content {
+  max-width: 100%;
+  margin: 0 auto;
+
+}
+
+
+
+.banner p { font-size: 20px; color: #efefef; margin-bottom: 30px;}
+
+.banner-content button {
+  padding: 10px 25px;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.banner-image {
+  max-width: 45%;
+  height: auto;
+  border-radius: 10px;
+}
